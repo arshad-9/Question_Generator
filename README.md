@@ -1,84 +1,196 @@
 # 📚 Smart Learning Assistant
 
-An AI-powered question paper generator that converts study material into customized assessments.
+An AI-powered educational tool that transforms study material into customized question papers and answer keys within seconds.
 
-Upload a PDF or image containing notes, textbook content, or study material, and the application automatically:
-
-- Extracts text using OCR
-- Analyzes the content using AI
-- Generates a structured question paper
-- Creates an answer key on demand
+Upload a PDF or image containing notes, textbook content, or study material, and the application automatically extracts text, analyzes content, and generates assessment-ready questions.
 
 ---
 
 ## 🚀 Features
 
-### 📄 PDF & Image Support
-Upload:
+### 📄 PDF & Image Upload
 
-- PDF files
-- JPG images
-- JPEG images
-- PNG images
+Supports:
+
+* PDF
+* PNG
+* JPG
+* JPEG
 
 ### 🔍 OCR-Based Text Extraction
 
-The application extracts text from uploaded study material using:
+Extracts text from:
 
-- EasyOCR
-- PyMuPDF
+* Scanned documents
+* Notes
+* Textbook pages
+* Images
+
+Using:
+
+* EasyOCR
+* PyMuPDF
 
 ### 🤖 AI Question Generation
 
 Generate:
 
-- MCQs
-- Short Answer Questions
-- Long Answer Questions
-- True/False Questions
-- Fill in the Blanks
+* Multiple Choice Questions (MCQs)
+* Short Answer Questions
+* Long Answer Questions
+* True/False Questions
+* Fill in the Blanks
 
-### 🎯 Difficulty Control
+### 🎯 Difficulty Selection
 
 Choose from:
 
-- Easy
-- Medium
-- Hard
+* Easy
+* Medium
+* Hard
 
 ### ✅ Answer Key Generation
 
-Generate answer keys separately after creating the question paper.
+Generate answer keys separately for the generated question paper.
 
-### 📊 Extraction Statistics
+### 📊 Extraction Analytics
 
-View:
+Displays:
 
-- Total words detected
-- Total characters extracted
+* Word count
+* Character count
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 ### Frontend
 
-- Streamlit
+* Streamlit
 
 ### OCR
 
-- EasyOCR
-- PyMuPDF (fitz)
+* EasyOCR
+* PyMuPDF
 
 ### AI
 
-- Groq API
-- Llama 3.3 70B Versatile
+* Groq API
+* Llama 3.3 70B Versatile
 
-### Backend
+### Programming Language
 
-- Python
+* Python
 
 ---
 
 ## 📂 Project Structure
+
+```text
+Question_Generator/
+│
+├── ai/
+│   ├── __init__.py
+│   └── generator.py
+│
+├── ocr/
+│   ├── __init__.py
+│   └── extractor.py
+│
+├── app.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/arshad-9/Question_Generator.git
+cd Question_Generator
+```
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Virtual Environment
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Linux/Mac:
+
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+GROQ_API_KEY=your_api_key_here
+```
+
+---
+
+## ▶️ Run Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📸 How It Works
+
+1. Upload a PDF or image.
+2. Extract text using OCR.
+3. Select difficulty level.
+4. Choose question types.
+5. Generate question paper.
+6. Generate answer key.
+
+---
+
+## 🎓 Use Cases
+
+* Teachers
+* Students
+* Coaching Institutes
+* School Assessments
+* Self-Practice Tests
+* Exam Preparation
+
+---
+
+## 🔮 Future Enhancements
+
+* PDF Export
+* Download Question Papers
+* Multiple Language Support
+* Question Bank Storage
+* User Authentication
+* Student Performance Analytics
+* Bloom's Taxonomy-Based Questions
+
+---
+
