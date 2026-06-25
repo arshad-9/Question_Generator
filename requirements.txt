@@ -1,10 +1,10 @@
 streamlit
-easyocr
-opencv-python-headless
+easyocr==1.7.2
+opencv-python-headless==4.10.0.84
 Pillow
 PyMuPDF
 reportlab
 google-genai
 python-dotenv
-numpy
+numpy<2
 pandas
