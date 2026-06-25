@@ -1,0 +1,10 @@
+streamlit
+easyocr
+opencv-python
+Pillow
+PyMuPDF
+reportlab
+google-genai
+python-dotenv
+numpy
+pandas
