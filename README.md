@@ -181,6 +181,15 @@ streamlit run app.py
 * Exam Preparation
 
 ---
+### Current Limitations
+
+* OCR accuracy may decrease when processing blurred, handwritten, or low-resolution documents.
+* The quality of generated questions depends on the accuracy of the extracted text.
+* AI-generated questions and answer keys should be reviewed before classroom or examination use.
+* Answer key generation may occasionally be interrupted due to temporary AI service limitations or API rate limits.
+* The application currently supports English-language documents only.
+* Does Not  correctly handles documents with Diagrams 
+* Complex tables, diagrams, and mathematical equations may not be extracted accurately.
 
 ## 🔮 Future Enhancements
 
