@@ -39,13 +39,14 @@ IMPORTANT FORMATTING RULES:
 
 3. Question text
 
-5. for mcq type:
-    1. Question text 
+5. For mcq type:
+    Question Number . Question text 
     a. option 1 b. option 2 c. option 3 d. option 4
 6. Do NOT include explanations.
 7. Do NOT include answers.
 8. Do NOT include notes to the teacher.
-9. Return only the question paper.
+9. Provide Appropriate spacing between questions.
+10. Return only the question paper.
 
 Difficulty: {difficulty}
 

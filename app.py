@@ -112,6 +112,9 @@ left, right = st.columns([1, 1.2])
 
 with left:
 
+
+   
+
     st.markdown(
         """
         <div class='main-title'>
@@ -130,6 +133,18 @@ with left:
         """,
         unsafe_allow_html=True
     )
+
+    st.markdown(
+        """
+        <div class='feature-card'>
+        <h4>📌 Important Notes</h4>
+        <ul>
+        <li>Use <b>clear, high-quality PDFs</b> for the best OCR accuracy.</li>
+        <li>Review generated questions and answer keys before classroom or examination use.</li>
+        <li>If Generation fails, wait a few seconds and try again. It's due to Temporary AI service limitations or API rate limits may occasionally interrupt the request.</li>
+           </ul>
+           </div>
+      """, unsafe_allow_html=True)
 
     st.markdown("""
     <div class='feature-card'>
