@@ -1,12 +1,15 @@
 import os
+import streamlit as st
 import requests
 
 from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("GROQ_API_KEY")
-
+try:
+    API_KEY = st.secrets["GROQ_API_KEY"]
+except Exception:
+    API_KEY = os.getenv("GROQ_API_KEY")
 
 def generate_question_paper(
         text,
