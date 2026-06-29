@@ -140,6 +140,7 @@ with left:
         <h4>📌 Important Notes</h4>
         <ul>
         <li>Use <b>clear, high-quality PDFs</b> for the best OCR accuracy.</li>
+        <li>Use <b>Avoid uploading documents with diagrams</b> as OCRs might fail to catch them.</li>
         <li>Review generated questions and answer keys before classroom or examination use.</li>
         <li>If Generation fails, wait a few seconds and try again. It's due to Temporary AI service limitations or API rate limits may occasionally interrupt the request.</li>
            </ul>
